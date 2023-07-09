@@ -1,0 +1,10 @@
+class shape():
+    def area(self):
+        return 0
+class rectangle(shape):
+    def area(self):
+        l=int(input())
+        b=int(input())
+        print(l*b)
+a1=rectangle()
+a1.area()
